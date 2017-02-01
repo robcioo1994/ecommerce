@@ -1,46 +1,15 @@
 node_modules
-<<<<<<< HEAD
-
-
 *.log*
-
-=======
-*.log*
->>>>>>> origin/master
 .idea
-
 *.iml
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> origin/master
 *.jar
-
 *.war
-
 *.ear
-
 *.class
-<<<<<<< HEAD
-
-
-=======
->>>>>>> origin/master
 .idea/
 *.iml
-
 *.iws
-
 /out/
-
 log/
-
 target/
-<<<<<<< HEAD
-
 database/
-=======
-database/
->>>>>>> origin/master
