@@ -1,0 +1,20 @@
+server:
+  port: 8091
+
+spring:
+  devtools:
+    livereload:
+      enabled: false
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/eCommerce2
+    username: postgres
+    password: postgres
+
+logging:
+  level: debug

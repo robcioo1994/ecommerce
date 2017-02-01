@@ -1,0 +1,142 @@
+.bg{
+  margin: 20px;
+  border: solid 1px black;
+  list-style-type: none;
+
+  &-white{
+    background: $white;
+  }
+
+  &-deepBlue5{
+    background: $deepBlue-5;
+  }
+  &-deepBlue10{
+    background: $deepBlue-10;
+  }
+  &-deepBlue20{
+    background: $deepBlue-20;
+  }
+  &-deepBlue40{
+    background: $deepBlue-40;
+  }
+  &-deepBlue60{
+    background: $deepBlue-60;
+  }
+  &-deepBlue70{
+    background: $deepBlue-70;
+  }
+  &-deepBlue80{
+    background: $deepBlue-80;
+  }
+  &-deepBlue90{
+    background: $deepBlue-90;
+  }
+  &-deepBlue100{
+    background: $deepBlue-100;
+  }
+  &-deepBlue120{
+    background: $deepBlue-120;
+  }
+
+  &-studioGray20{
+    background: $studioGray-20;
+  }
+  &-studioGray40{
+    background: $studioGray-40;
+  }
+  &-studioGray60{
+    background: $studioGray-60;
+  }
+  &-studioGray80{
+    background: $studioGray-80;
+  }
+  &-studioGray100{
+    background: $studioGray-100;
+  }
+  &-studioGray120{
+    background: $studioGray-120;
+  }
+
+  &-blue5{
+    background: $blue-5;
+  }
+  &-blue10{
+    background: $blue-10;
+  }
+  &-blue20{
+    background: $blue-20;
+  }
+  &-blue40{
+    background: $blue-40;
+  }
+  &-blue60{
+    background: $blue-60;
+  }
+  &-blue80{
+    background: $blue-80;
+  }
+  &-blue100{
+    background: $blue-100;
+  }
+  &-blue120{
+    background: $blue-120;
+  }
+  &-blue140{
+    background: $blue-140;
+  }
+  &-blue160{
+    background: $blue-160;
+  }
+
+  &-red5{
+    background: $red-5;
+  }
+  &-red10{
+    background: $red-10;
+  }
+  &-red20{
+    background: $red-20;
+  }
+  &-red40{
+    background: $red-40;
+  }
+  &-red60{
+    background: $red-60;
+  }
+  &-red80{
+    background: $red-80;
+  }
+  &-red100{
+    background: $red-100;
+  }
+  &-red120{
+    background: $red-120;
+  }
+  &-red140{
+    background: $red-140;
+  }
+  &-red160{
+    background: $red-160;
+  }
+
+  &-matblue{
+    background: $matBlue;
+  }
+  &-red{
+    background: $red;
+  }
+  &-salmon{
+    background: $salmon;
+  }
+  &-green{
+    background: $green-color;
+  }
+
+  &-red2{
+    background: $red-color;
+  }
+  &-yellow{
+    background: $yellow-color;
+  }
+}
+

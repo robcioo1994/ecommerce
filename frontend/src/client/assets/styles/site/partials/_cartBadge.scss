@@ -1,0 +1,21 @@
+.myBadhge {
+  position: absolute;
+  top:-3px;
+  right: -20px;
+  padding: 2px 8px;
+  border: 1px solid white;
+  border-radius:100px;
+  background: -webkit-linear-gradient(top, $matBlue 0%,$matBlue 100%);
+  -webkit-background-clip: padding-box;
+  //font:bold 16px/20px "Helvetica Neue", sans-serif;
+  color: white;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.6);
+}
+
+.textBadge {
+  font-size: 1.5em;
+  position: relative;
+  padding: 3px 5px;
+  text-decoration: none;
+}

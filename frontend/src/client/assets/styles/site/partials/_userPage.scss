@@ -1,0 +1,60 @@
+//.userPage{
+//  max-width: 90%;
+//  margin: 50px auto;
+//
+//  .sidebar{
+//    background-color: $white;
+//    box-shadow: $swipes-shadow-two;
+//    width: 20%;
+//    display: inline-block;
+//    vertical-align: top;
+//    float:left;
+//    border-radius: 3px;
+//    overflow: hidden;
+//
+//    .header{
+//      @include header($deepBlue-120, $studioGray-40);
+//    }
+//
+//    &__menu-item {
+//      background: $white;
+//      padding: 15px;
+//      font-size: 1em;
+//      color: #999;
+//      border-bottom: 1px solid #F0F1F2;
+//      transition: all .3s ease;
+//      &--active {
+//        color: #000;
+//        border-left: 3px solid #348AA7;
+//      }
+//      &:hover{
+//        background: darken(#FFF, 3%);
+//        cursor: pointer;
+//      }
+//
+//      i{
+//        margin-right: 15px;
+//      }
+//    }
+//
+//  }
+//
+//  &__main{
+//    background-color: $white;
+//    box-shadow: $swipes-shadow-two;
+//    width: 75%;
+//    display: inline-block;
+//    vertical-align: top;
+//    margin-left: 3%;
+//    border-radius: 3px;
+//    overflow: hidden;
+//
+//    .header{
+//      @include header($studioGray-20, $matBlue);
+//    }
+//
+//    .content{
+//      @include content(20px, $white);
+//    }
+//  }
+//}

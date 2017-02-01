@@ -1,0 +1,11 @@
+@mixin header($color:inherit, $backgroundColor:inherit) {
+  padding: 10px;
+  color: $color;
+  background: $backgroundColor;
+  border-bottom: 1px solid $studioGray-80;
+}
+
+@mixin content($padding:inherit, $backgroundColor:inherit) {
+  padding: $padding;
+  background-color: $backgroundColor;
+}

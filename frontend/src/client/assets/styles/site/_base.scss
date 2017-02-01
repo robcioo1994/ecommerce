@@ -1,0 +1,37 @@
+// Modules and Variables
+@import "modules/colors";
+@import "modules/positions";
+@import "modules/windowElements";
+@import "modules/panel";
+
+// Partials
+@import "partials/singUp";
+@import "partials/login";
+@import "partials/productList";
+@import "partials/productPage";
+@import "partials/cart";
+@import "partials/navbar";
+@import "partials/buttons";
+@import "partials/componnents";
+@import "partials/userPage";
+@import "partials/mainPage";
+@import "partials/footer";
+@import "partials/cartBadge";
+
+// Third-party
+@import "partials/test";
+
+
+html {
+  height: 100%;
+}
+
+body{
+  background-color: $studioGray-40;
+  font-family: 'Roboto';
+  min-height: 100%;
+}
+
+a,a:hover, a:visited, a:link, a:active{
+  text-decoration : none;
+}

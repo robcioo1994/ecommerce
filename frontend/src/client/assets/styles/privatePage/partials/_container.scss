@@ -1,0 +1,26 @@
+.body-wrapper{
+  position: absolute;
+  left: 230px;
+  top: 75px;
+  width: auto;
+  right: 0;
+  transition: all .2s ease-in-out;
+}
+
+.body-wrapper.nav-min{
+  left: 50px;
+}
+
+@media screen and (min-width: 850px) {
+
+}
+
+
+@media screen and (max-width: 850px) {
+  .body-wrapper{
+    position:relative;
+  }
+  .body-wrapper.nav-min{
+    left: 0;
+  }
+}

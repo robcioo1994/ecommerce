@@ -1,0 +1,120 @@
+.sidebar{
+  background: $white !important;
+  z-index: 9999;
+  position: fixed;
+  font-weight: 600;
+  width: 225px;
+  height: 100vh;
+  top: 50px;
+  left: 0;
+  bottom: 0;
+  box-shadow: $swipes-shadow-one;
+  transition:all .2s ease-in-out;
+  ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  &__item {
+    border-bottom: 1px solid #F0F1F2;
+    text-align:left;
+    height: 50px;
+    font-size: 0.8em;
+    font-weight:500;
+    letter-spacing:.025em;
+    line-height:50px;
+
+    a {
+      text-decoration: none;
+      display: block;
+      color: $deepBlue-80;
+
+      i{
+        position:relative;
+        width:50px;
+        line-height:50px;
+        text-align:center;
+        &:before{
+          z-index:10;
+          position:relative;
+        }
+      }
+      >span{
+        display: inline-block;
+        visibility:visible;
+        opacity:1;
+        padding-left:10px;
+        -webkit-transition:all .2s ease-in-out .2s;
+        transform:translate3d(0,0,0);
+        text-transform: uppercase;
+      }
+      &:hover{
+        color: $deepBlue-90;
+
+        .icon-bg{
+          transform:translate3d(0,0,0);
+        }
+
+        a>i{
+          color: white;
+        }
+      }
+    }
+    &:hover{
+      background: $deepBlue-10;
+      box-shadow: $swipes-shadow-two;
+      .icon-bg{
+        transform:translate3d(0,0,0);
+      }
+      a>i{
+        color: $white;
+      }
+    }
+  }
+}
+
+.sidebar.nav-min{
+  width:50px !important;
+
+  .sidebar__label{
+    opacity:0;
+    visibility:hidden;
+    -webkit-transition:all .1s linear;
+    transform:translate3d(-200px,0,0);
+  }
+  .icon-bg{
+    transform:translate3d(0,0,0);
+  }
+
+  i{
+    border:0px;
+    color:white;
+    transition:all .2s linear;
+  }
+
+  li:hover{
+    .icon-bg{
+      transform:scale(1.2,1);
+    }
+  }
+}
+
+.icon-bg{
+  position:absolute;
+  left:0;top:0;bottom:0;
+  z-index:1;
+  width:100%;
+  transform:translate3d(-55px,0,0);
+  transition: all .2s ease-in-out;
+}
+
+
+@media screen and (max-width: 850px){
+  .sidebar.nav-min{
+    transform:translate3d(-200px,0,0);
+  }
+
+  .sidebar{
+    top: 100px;
+  }
+}

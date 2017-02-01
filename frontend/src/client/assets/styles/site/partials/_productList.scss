@@ -1,0 +1,55 @@
+.productList {
+  padding-top: 50px;
+
+  &-content{
+    h3 {
+      text-transform: uppercase;
+      letter-spacing: 0.5em;
+      font-size: 20px;
+      font-weight: 700;
+      text-align: center;
+      padding: 10px;
+      color: $red-color
+    }
+  }
+}
+
+.productGridItem{
+
+
+  &_inner{
+    padding: 0 10%;
+    border: 1px solid $studioGray-40;
+
+    &-desc{
+      text-align: center;
+      height: 100px;
+      font-size: 1.8em;
+    }
+    &-image{
+      img {
+        width:100%;
+        height: 100%;
+      }
+    }
+
+    .PGL-label{
+      font-size: 17px;
+      color: $deepBlue-120;
+    }
+
+    .PGL-price{
+      font-size: 20px;
+      color: $red-color;
+    }
+
+    &:hover{
+      //box-shadow: $swipes-shadow-four;
+      img{
+        transition:all .2s ease-in-out;
+        transform:scale(1.1);
+      }
+    }
+  }
+
+}

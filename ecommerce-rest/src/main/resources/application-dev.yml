@@ -1,0 +1,19 @@
+server:
+  port: 8091
+
+spring:
+  devtools:
+    livereload:
+      enabled: false
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    database-platform: HSQL
+
+  datasource:
+    url: jdbc:hsqldb:file:ecommerce-rest/src/main/resources/database/ecommerce-dev-db;create=true
+
+logging:
+  level: debug

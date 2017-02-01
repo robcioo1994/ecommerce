@@ -1,0 +1,154 @@
+.cartPage{
+  margin-top: 100px;
+}
+
+.group:before,
+.group:after {
+  content: '';
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1;
+}
+
+.column-labels{
+  width: 100%;
+  background-color: $deepBlue-120;
+  height: 30px;
+  color: $white;
+  line-height: 30px;
+}
+
+.product{
+  @extend .group;
+  width: 100%;
+  display: table;
+  padding: 10px;
+  color: $deepBlue-90;
+  border-bottom: 1px solid $studioGray-100;
+
+  img{
+    width: 100%;
+  }
+
+  &-image{
+    float: left;
+    width: 15%;
+    padding-left: 10px;
+    img{
+      max-width: 100px;
+    }
+
+  }
+
+  &-details{
+    float: left;
+    width: 30%;
+  }
+
+  &-price{
+    float: left;
+    width: 15%;
+    text-align: center;
+  }
+
+  &-quantity{
+    float: left;
+    width: 20%;
+    text-align: center;
+  }
+
+  &-subtotal{
+    float: left;
+    width: 15%;
+    text-align: center;
+  }
+
+  &-removal{
+    float: left;
+    width: 5%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .column-labels {
+    display: none;
+  }
+  .product-image{
+    float: right;
+    width: auto;
+    img {
+      margin: 0 0 10px 10px;
+    }
+  }
+  .product-details{
+    float: none;
+    margin-bottom: 10px;
+    width: auto;
+  }
+  .product-price{
+    clear: both;
+    width: 70px;
+  }
+  .product-quantity{
+    width: 100px;
+    input {
+      margin-left: 20px;
+    }
+  }
+
+  .product-quantity:before {
+    content: 'x';
+  }
+
+  .product-subtotal{
+    float: right;
+    width: 70px;
+  }
+  .product-removal{
+    width: auto;
+    float: right;
+  }
+
+}
+
+.cartSubmit{
+  padding: 10px;
+
+  .totals-item {
+    float: right;
+    clear: both;
+    width: 100%;
+    margin-bottom: 10px;
+
+    label {
+      float: left;
+      clear: both;
+      width: 79%;
+      text-align: right;
+    }
+
+    .totals-value {
+      float: right;
+      width: 21%;
+      text-align: right;
+    }
+
+    .continueButton{
+      float: right;
+    }
+
+    .checkoutButton{
+      float: left;
+    }
+
+
+  }
+
+
+
+}
