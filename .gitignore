@@ -1,14 +1,21 @@
 node_modules
+<<<<<<< HEAD
 
 
 *.log*
 
+=======
+*.log*
+>>>>>>> origin/master
 .idea
 
 *.iml
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> origin/master
 *.jar
 
 *.war
@@ -16,8 +23,11 @@ node_modules
 *.ear
 
 *.class
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> origin/master
 .idea/
 *.iml
 
@@ -28,5 +38,9 @@ node_modules
 log/
 
 target/
+<<<<<<< HEAD
 
 database/
+=======
+database/
+>>>>>>> origin/master
