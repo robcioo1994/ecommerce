@@ -16,8 +16,9 @@ public class KeyAttribute extends Attribute {
 
     private double cog;
 
-    public KeyAttribute(String name) {
+    public KeyAttribute(String name, DiscreteValue value) {
         super(name);
+        this.discreteValue = value;
     }
 
     public boolean equals(KeyAttribute keyAttribute) {
