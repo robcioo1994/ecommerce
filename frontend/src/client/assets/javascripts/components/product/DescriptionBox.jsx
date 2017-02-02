@@ -5,7 +5,6 @@ class DescriptionBox extends React.Component {
 
     render() {
         const {description, nr} = this.props;
-        console.log((nr % 2 === 0))
 
         const style = classname({'bg-white': nr % 2 !== 0});
         return (

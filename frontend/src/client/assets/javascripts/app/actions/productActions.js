@@ -6,9 +6,6 @@ const newNotebookRequest= () => ({
 });
 
 export function addNewNotebook(notebook, image) {
-    var jsonFile = new FormData();
-    jsonFile.append('image', image);
-
     return dispatch=>{
         dispatch(newNotebookRequest);
         return axios.post('/api/all/notebook', notebook)

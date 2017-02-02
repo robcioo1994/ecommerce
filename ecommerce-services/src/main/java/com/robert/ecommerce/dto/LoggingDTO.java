@@ -11,7 +11,7 @@ public class LoggingDTO {
 
     private Long id;
 
-    private String email;
+    private String userName;
 
     private Long productId;
 

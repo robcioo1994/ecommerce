@@ -14,7 +14,7 @@ import javax.persistence.*;
 public class DisplayResolutionEntity {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
     private int width;
