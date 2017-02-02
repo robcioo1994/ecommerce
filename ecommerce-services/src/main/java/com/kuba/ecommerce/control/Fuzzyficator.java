@@ -48,11 +48,25 @@ public class Fuzzyficator {
             attributesSpecifications.add(new AttributesSpecifications.AttributeSpecification(currentAttribute, meanValue, standardDeviation));
         }
 
+        int size = 0;
+        List<KeyAttribute> keyAttributes = new ArrayList<>();
+        for(Record record : records) {
+            boolean found = false;
+            for(KeyAttribute attribute : keyAttributes) {
+                if(attribute.equals(record.getKeyAttribute())) found = true;
+            }
+            if(!found) {
+                keyAttributes.add(record.getKeyAttribute());
+                size++;
+            }
+        }
+
         double sumOfKeyAttributes = 0;
         for(Record record : records) {
+            double val = record.getKeyAttribute().getDiscreteValue().getValue();
             sumOfKeyAttributes += record.getKeyAttribute().getDiscreteValue().getValue();
         }
-        double meanKeyAttributeValue = sumOfKeyAttributes/records.size();
+        double meanKeyAttributeValue = sumOfKeyAttributes/size;
 
         double sumOfSquareDifference = 0;
         for(Record record : records) {
