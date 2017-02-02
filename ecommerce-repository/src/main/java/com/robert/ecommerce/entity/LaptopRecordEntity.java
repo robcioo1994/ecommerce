@@ -9,7 +9,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class LaptopRecordEntity {
 
+    private Long id;
     private double displayRes;
     private double displaySize;
     private double hddSize;
+    private long timeSpent;
 }
+
