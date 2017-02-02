@@ -6,7 +6,6 @@ import com.kuba.ecommerce.models.values.FuzzyValue;
 import com.kuba.ecommerce.models.values.Value;
 
 import java.lang.*;
-import java.lang.Object;
 
 public class KeyAttribute extends Attribute {
 

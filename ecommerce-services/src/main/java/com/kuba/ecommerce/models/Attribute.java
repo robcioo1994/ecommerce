@@ -8,7 +8,6 @@ package com.kuba.ecommerce.models;
 import com.google.gson.annotations.SerializedName;
 
 import java.lang.*;
-import java.lang.Object;
 
 public class Attribute {
 

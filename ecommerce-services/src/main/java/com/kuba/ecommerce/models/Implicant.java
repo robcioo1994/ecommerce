@@ -2,7 +2,6 @@ package com.kuba.ecommerce.models;
 
 import com.kuba.ecommerce.lists.AttributesList;
 
-import java.lang.*;
 import java.util.ArrayList;
 import java.util.List;
 
