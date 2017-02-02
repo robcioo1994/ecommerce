@@ -1,0 +1,224 @@
+[
+  {
+    "item": {
+      "id": 1
+    },
+    "attributeEvaluations": [
+      {
+        "attribute": {
+          "name": "a"
+        },
+        "value": {
+          "value": 1
+        }
+      },
+      {
+        "attribute": {
+          "name": "b"
+        },
+        "value": {
+          "value": 0
+        }
+      },
+      {
+        "attribute": {
+          "name": "c"
+        },
+        "value": {
+          "value": 1
+        }
+      }
+    ],
+    "keyAttribute": {
+      "name": "0",
+      "value": {
+        "value": 0
+      }
+    }
+  },
+  {
+    "item": {
+      "id": 2
+    },
+    "attributeEvaluations": [
+      {
+        "attribute": {
+          "name": "a"
+        },
+        "value": {
+          "value": 0
+        }
+      },
+      {
+        "attribute": {
+          "name": "b"
+        },
+        "value": {
+          "value": 0
+        }
+      },
+      {
+        "attribute": {
+          "name": "c"
+        },
+        "value": {
+          "value": 0
+        }
+      }
+    ],
+    "keyAttribute": {
+      "name": "1",
+      "value": {
+        "value": 1
+      }
+    }
+  },
+  {
+    "item": {
+      "id": 3
+    },
+    "attributeEvaluations": [
+      {
+        "attribute": {
+          "name": "a"
+        },
+        "value": {
+          "value": 2
+        }
+      },
+      {
+        "attribute": {
+          "name": "b"
+        },
+        "value": {
+          "value": 0
+        }
+      },
+      {
+        "attribute": {
+          "name": "c"
+        },
+        "value": {
+          "value": 1
+        }
+      }
+    ],
+    "keyAttribute": {
+      "name": "0",
+      "value": {
+        "value": 0
+      }
+    }
+  },
+  {
+    "item": {
+      "id": 4
+    },
+    "attributeEvaluations": [
+      {
+        "attribute": {
+          "name": "a"
+        },
+        "value": {
+          "value": 0
+        }
+      },
+      {
+        "attribute": {
+          "name": "b"
+        },
+        "value": {
+          "value": 0
+        }
+      },
+      {
+        "attribute": {
+          "name": "c"
+        },
+        "value": {
+          "value": 1
+        }
+      }
+    ],
+    "keyAttribute": {
+      "name": "2",
+      "value": {
+        "value": 2
+      }
+    }
+  },
+  {
+    "item": {
+      "id": 5
+    },
+    "attributeEvaluations": [
+      {
+        "attribute": {
+          "name": "a"
+        },
+        "value": {
+          "value": 1
+        }
+      },
+      {
+        "attribute": {
+          "name": "b"
+        },
+        "value": {
+          "value": 1
+        }
+      },
+      {
+        "attribute": {
+          "name": "c"
+        },
+        "value": {
+          "value": 1
+        }
+      }
+    ],
+    "keyAttribute": {
+      "name": "0",
+      "value": {
+        "value": 0
+      }
+    }
+  },
+  {
+    "item": {
+      "id": 6
+    },
+    "attributeEvaluations": [
+      {
+        "attribute": {
+          "name": "a"
+        },
+        "value": {
+          "value": 1
+        }
+      },
+      {
+        "attribute": {
+          "name": "b"
+        },
+        "value": {
+          "value": 0
+        }
+      },
+      {
+        "attribute": {
+          "name": "c"
+        },
+        "value": {
+          "value": 1
+        }
+      }
+    ],
+    "keyAttribute": {
+      "name": "3",
+      "value": {
+        "value": 3
+      }
+    }
+  }
+]
