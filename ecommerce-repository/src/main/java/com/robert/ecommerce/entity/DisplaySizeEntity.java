@@ -15,7 +15,7 @@ import javax.persistence.*;
 public class DisplaySizeEntity {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
     private double size;

@@ -12,7 +12,6 @@ export function clearStore() {
 }
 
 export function receiveProductFromServer(id) {
-    console.log('single');
     return dispatch=>{
         dispatch(newProductRequest);
         return axios.get('/api/all/notebook/'+id)

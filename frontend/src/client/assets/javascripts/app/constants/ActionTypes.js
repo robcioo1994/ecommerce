@@ -34,6 +34,7 @@ export const CLEAN_VISIBLE_PRODUCT_IN_STORE = 'CLEAN_VISIBLE_PRODUCT_IN_STORE';
 
 // - LOG ---------------------------------------------------------------------------------------------------------------
 export const LOG_PRODUCT = 'LOG_PRODUCT';
+export const LOG_PRODUCT_SUCCESS = 'LOG_PRODUCT_SUCCESS';
 
 
 // - INPUT OUTPUT TYPE -------------------------------------------------------------------------------------------------

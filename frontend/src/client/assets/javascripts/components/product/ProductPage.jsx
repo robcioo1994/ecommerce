@@ -6,6 +6,8 @@ import ProductSlider from './ProductSlider';
 import ProductDescription from './ProductDescription';
 import SpecificationsBox from './SpecificationsBox';
 import AdditionalDescription from './AdditionalDescription';
+import Logger from './../../models/Logger';
+
 
 class ProductPage extends React.Component {
 
@@ -17,14 +19,18 @@ class ProductPage extends React.Component {
     }
 
     componentWillMount() {
-        console.log('componentWillMount')
+        console.log('componentWillMount');
         this.setState({start: new Date().getTime()});
         this.props.receiveProductFromServer(this.props.params.id);
     }
 
     componentWillUnmount() {
         console.log('Component WILL UNMOUNT!');
-        this.props.logProduct(this.props.product.id, (new Date().getTime() - this.state.start)/1000 );
+        const {user} = this.props.auth;
+        if(user !== undefined){
+            const logger = new Logger(user.sub,this.props.params.id,(new Date().getTime() - this.state.start)/1000 );
+            this.props.logProduct(logger);
+        }
         this.props.clearStore()
     }
 
@@ -68,6 +74,7 @@ ProductPage.propTypes = {
 let mapStateToProps = (state) => {
     return{
         product: state.actualProduct.product,
+        auth: state.auth,
     }
 };
 
