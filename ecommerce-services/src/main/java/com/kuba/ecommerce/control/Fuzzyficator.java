@@ -130,44 +130,44 @@ public class Fuzzyficator {
             record.setAttributeEvaluations(fuzzyAttributeEvaluations);
 
             KeyAttribute keyAttribute = record.getKeyAttribute();
-//
-//            double meanValue = meanKeyAttributeValue;
-//            double standardDeviation = standardKeyDeviation;
-//
-//            double low, medium, high;
-//
+
+            double meanValue = meanKeyAttributeValue;
+            double standardDeviation = standardKeyDeviation;
+
+            double low, medium, high;
+
             double discreteValue = keyAttribute.getDiscreteValue().getValue();
-//
-//            low = discreteValue >= meanValue ? 0 :
-//                    (1 - Math.exp(
-//                            -(Math.pow(discreteValue - meanValue, 2))
-//                                    / (2*Math.pow(standardDeviation,2))));
-//
-//            medium = Math.exp(
-//                    -(Math.pow(discreteValue - meanValue, 2))
-//                            / (2*Math.pow(standardDeviation,2)));
-//
-//            high = discreteValue <= meanValue ? 0 :
-//                    (1 - Math.exp(
-//                            -(Math.pow(discreteValue - meanValue, 2))
-//                                    / (2*Math.pow(standardDeviation,2))));
-//
-//            FuzzyValue value = new FuzzyValue(low,medium,high);
-//            //endregion fuzzy attributes
-//
-//
-//            keyAttribute.setFuzyyValue(value);
-//            double cog = 0;
-//            String valueClass = value.toString();
-//            switch (valueClass) {
-//                case "HIGH": cog = keyAttributeSpecifications.getMaxValue(); break;
-//                case "MEDIUM": cog = (keyAttributeSpecifications.getMaxValue()+keyAttributeSpecifications.getMinValue())/2; break;
-//                case "LOW": cog = keyAttributeSpecifications.getMinValue(); break;
-//            }
-            double cog = -1;
-            if(discreteValue == 0) cog = 1;
-            if(discreteValue == 1 || discreteValue == 2) cog = 1.5;
-            if(discreteValue == 3) cog = 2;
+
+            low = discreteValue >= meanValue ? 0 :
+                    (1 - Math.exp(
+                            -(Math.pow(discreteValue - meanValue, 2))
+                                    / (2*Math.pow(standardDeviation,2))));
+
+            medium = Math.exp(
+                    -(Math.pow(discreteValue - meanValue, 2))
+                            / (2*Math.pow(standardDeviation,2)));
+
+            high = discreteValue <= meanValue ? 0 :
+                    (1 - Math.exp(
+                            -(Math.pow(discreteValue - meanValue, 2))
+                                    / (2*Math.pow(standardDeviation,2))));
+
+            FuzzyValue value = new FuzzyValue(low,medium,high);
+            //endregion fuzzy attributes
+
+
+            keyAttribute.setFuzyyValue(value);
+            double cog = 0;
+            String valueClass = value.toString();
+            switch (valueClass) {
+                case "HIGH": cog = keyAttributeSpecifications.getMaxValue(); break;
+                case "MEDIUM": cog = (keyAttributeSpecifications.getMaxValue()+keyAttributeSpecifications.getMinValue())/2; break;
+                case "LOW": cog = keyAttributeSpecifications.getMinValue(); break;
+            }
+//            double cog = -1;
+//            if(discreteValue == 0) cog = 1;
+//            if(discreteValue == 1 || discreteValue == 2) cog = 1.5;
+//            if(discreteValue == 3) cog = 2;
             keyAttribute.setCog(cog);
             record.setKeyAttribute(keyAttribute);
             fuzzyfiedRecords.add(record);
