@@ -19,20 +19,11 @@ public class Main {
         List<Record> records = Test.getObject();
 
         Controller controller = new Controller(Controller.Mode.FUZZY);
-        controller.setLearningSet(records);
+        controller.setLearningSet(records.subList(1, records.size()-2));
         controller.generateRules();
 
-        controller.getDecision(new Record(new Object(-1), Arrays.asList(
-                new MyPair<>(new Attribute("a"), new DiscreteValue(1.33)),
-                new MyPair<>(new Attribute("b"), new DiscreteValue(0)),
-                new MyPair<>(new Attribute("c"), new DiscreteValue(1))),
-                null));
-
-        controller.getDecision(new Record(new Object(-1), Arrays.asList(
-                new MyPair<>(new Attribute("a"), new DiscreteValue(4)),
-                new MyPair<>(new Attribute("b"), new DiscreteValue(5)),
-                new MyPair<>(new Attribute("c"), new DiscreteValue(3))),
-                null));
+        controller.getDecision(records.get(0));
+        controller.getDecision(records.get(records.size()-1));
     }
 
 

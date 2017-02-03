@@ -1,6 +1,5 @@
 [
   {
-    
     "Nazwa": "Asus X102BA-DF011H W8",
     "Przekątna ekranu": 10.1,
     "Rozdzielczość ekranu": 1049088,
@@ -16,7 +15,6 @@
     "OCENA": 0
   },
   {
-    
     "Nazwa": "HP Pavilion 15-n070sw W8",
     "Przekątna ekranu": 15.6,
     "Rozdzielczość ekranu": 1049088,
@@ -32,7 +30,6 @@
     "OCENA": 1
   },
   {
-    
     "Nazwa": "Sony VAIO SVF1521C6E W8",
     "Przekątna ekranu": 15.5,
     "Rozdzielczość ekranu": 1049088,
@@ -48,7 +45,6 @@
     "OCENA": 1
   },
   {
-    
     "Nazwa": "Asus X551CA-SX029D",
     "Przekątna ekranu": 15.6,
     "Rozdzielczość ekranu": 1049088,
@@ -64,7 +60,6 @@
     "OCENA": 1
   },
   {
-    
     "Nazwa": "Lenovo IdeaPad Y510 i7-4700",
     "Przekątna ekranu": 15.6,
     "Rozdzielczość ekranu": 1049088,
@@ -77,10 +72,9 @@
     "Taktowanie zegara": 3.4,
     "Liczba rdzeni": 4,
     "Cena": 2999,
-    "OCENA": 1
+    "OCENA": 3
   },
   {
-    
     "Nazwa": "Asus N56JR-S4013H W8",
     "Przekątna ekranu": 15.6,
     "Rozdzielczość ekranu": 2073600,
@@ -93,10 +87,9 @@
     "Taktowanie zegara": 3.4,
     "Liczba rdzeni": 4,
     "Cena": 4090,
-    "OCENA": 1
+    "OCENA": 3
   },
   {
-    
     "Nazwa": "HP 255 E1-1500",
     "Przekątna ekranu": 15.6,
     "Rozdzielczość ekranu": 1049088,
@@ -112,7 +105,6 @@
     "OCENA": 1
   },
   {
-    
     "Nazwa": "Asus X550VB-XO016H W8",
     "Przekątna ekranu": 15.6,
     "Rozdzielczość ekranu": 1049088,
@@ -125,10 +117,9 @@
     "Taktowanie zegara": 3.2,
     "Liczba rdzeni": 2,
     "Cena": 2499,
-    "OCENA": 1
+    "OCENA": 2
   },
   {
-    
     "Nazwa": "Samsung NP730U3E-S01PL W8",
     "Przekątna ekranu": 13.3,
     "Rozdzielczość ekranu": 2073600,
@@ -141,10 +132,9 @@
     "Taktowanie zegara": 2.7,
     "Liczba rdzeni": 2,
     "Cena": 3498,
-    "OCENA": 1
+    "OCENA": 3
   },
   {
-    
     "Nazwa": "Lenovo Essential G580H 1005M",
     "Przekątna ekranu": 15.6,
     "Rozdzielczość ekranu": 1049088,
@@ -157,10 +147,9 @@
     "Taktowanie zegara": 1.9,
     "Liczba rdzeni": 2,
     "Cena": 1399,
-    "OCENA": 1
+    "OCENA": 2
   },
   {
-    
     "Nazwa": "Asus G750JH-T4100H W8",
     "Przekątna ekranu": 17.3,
     "Rozdzielczość ekranu": 2073600,
@@ -173,10 +162,9 @@
     "Taktowanie zegara": 3.4,
     "Liczba rdzeni": 4,
     "Cena": 6099,
-    "OCENA": 1
+    "OCENA": 3
   },
   {
-    
     "Nazwa": "APPLE MacBook Pro 13",
     "Przekątna ekranu": 13.3,
     "Rozdzielczość ekranu": 1024000,
@@ -189,10 +177,9 @@
     "Taktowanie zegara": 2.5,
     "Liczba rdzeni": 4,
     "Cena": 4499,
-    "OCENA": 0
+    "OCENA": 2
   },
   {
-    
     "Nazwa": "HP Pavilion 10 10-e000ew",
     "Przekątna ekranu": 10.1,
     "Rozdzielczość ekranu": 1049088,
@@ -208,7 +195,6 @@
     "OCENA": 0
   },
   {
-    
     "Nazwa": "Asus Zenbook UX31LA-R5017H W8",
     "Przekątna ekranu": 13.3,
     "Rozdzielczość ekranu": 1440000,
@@ -221,10 +207,9 @@
     "Taktowanie zegara": 2.3,
     "Liczba rdzeni": 2,
     "Cena": 4166,
-    "OCENA": 0
+    "OCENA": 2
   },
   {
-    
     "Nazwa": "Dell Inspiron 17 7737 i7-4500U",
     "Przekątna ekranu": 17.3,
     "Rozdzielczość ekranu": 2073600,
@@ -237,10 +222,9 @@
     "Taktowanie zegara": 3,
     "Liczba rdzeni": 2,
     "Cena": 4799,
-    "OCENA": 1
+    "OCENA": 3
   },
   {
-    
     "Nazwa": "Apple MacBook Air i7 4650u",
     "Przekątna ekranu": 11.6,
     "Rozdzielczość ekranu": 1049088,
@@ -253,10 +237,9 @@
     "Taktowanie zegara": 3.3,
     "Liczba rdzeni": 2,
     "Cena": 7299,
-    "OCENA": 0
+    "OCENA": 2
   },
   {
-    
     "Nazwa": "MSI GE70 2OC i5-4200M",
     "Przekątna ekranu": 17.3,
     "Rozdzielczość ekranu": 1440000,
@@ -272,7 +255,6 @@
     "OCENA": 2
   },
   {
-    
     "Nazwa": "HP ProBook 450 i7-4702MQ",
     "Przekątna ekranu": 15.6,
     "Rozdzielczość ekranu": 1049088,
@@ -285,10 +267,9 @@
     "Taktowanie zegara": 3.2,
     "Liczba rdzeni": 4,
     "Cena": 2769,
-    "OCENA": 2
+    "OCENA": 3
   },
   {
-    
     "Nazwa": "Acer  V5-121 C-70",
     "Przekątna ekranu": 11.6,
     "Rozdzielczość ekranu": 1049088,
@@ -301,10 +282,9 @@
     "Taktowanie zegara": 1.33,
     "Liczba rdzeni": 2,
     "Cena": 999,
-    "OCENA": 0
+    "OCENA": 1
   },
   {
-    
     "Nazwa": "Lenovo G505 E1-2100M",
     "Przekątna ekranu": 15.6,
     "Rozdzielczość ekranu": 1049088,
@@ -317,10 +297,9 @@
     "Taktowanie zegara": 1,
     "Liczba rdzeni": 2,
     "Cena": 1159,
-    "OCENA": 1
+    "OCENA": 0
   },
   {
-    
     "Nazwa": "Toshiba Satellite C55-A-1FN i5-3230M",
     "Przekątna ekranu": 15.6,
     "Rozdzielczość ekranu": 1049088,
@@ -333,10 +312,9 @@
     "Taktowanie zegara": 3.2,
     "Liczba rdzeni": 2,
     "Cena": 2799,
-    "OCENA": 1
+    "OCENA": 3
   },
   {
-    
     "Nazwa": "Fujitsu Lifebook S752 i5-3230M",
     "Przekątna ekranu": 14.1,
     "Rozdzielczość ekranu": 1049088,
@@ -349,10 +327,9 @@
     "Taktowanie zegara": 3.2,
     "Liczba rdzeni": 2,
     "Cena": 3469,
-    "OCENA": 0
+    "OCENA": 2
   },
   {
-    
     "Nazwa": "Dell Vostro 5470 i3-4010U",
     "Przekątna ekranu": 14,
     "Rozdzielczość ekranu": 1049088,
@@ -368,7 +345,6 @@
     "OCENA": 2
   },
   {
-    
     "Nazwa": "Fujitsu U772 i5-3317U",
     "Przekątna ekranu": 14,
     "Rozdzielczość ekranu": 1049088,
@@ -381,10 +357,9 @@
     "Taktowanie zegara": 2.7,
     "Liczba rdzeni": 2,
     "Cena": 5057,
-    "OCENA": 0
+    "OCENA": 1
   },
   {
-    
     "Nazwa": "Samsung ATIV Book 2 i3-3120M",
     "Przekątna ekranu": 15.6,
     "Rozdzielczość ekranu": 1049088,
@@ -397,6 +372,6 @@
     "Taktowanie zegara": 2.5,
     "Liczba rdzeni": 2,
     "Cena": 2789,
-    "OCENA": 1
+    "OCENA": 3
   }
 ]

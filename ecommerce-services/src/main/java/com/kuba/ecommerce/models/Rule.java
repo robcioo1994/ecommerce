@@ -21,6 +21,7 @@ public class Rule {
         this.elements = new ArrayList<>();
         Map<Object, List<Implicant>> ruleElementsMap = new HashMap<>();
         for(Implicant implicant : implicantList) {
+            //if(implicant.getElements().size() == 0) continue;
             List<Implicant> implicants = new ArrayList<>();
             for(Object obj : ruleElementsMap.keySet()) {
                 if(obj.equals(implicant.getKeyAttribute())) implicants = ruleElementsMap.get(obj);
@@ -47,12 +48,16 @@ public class Rule {
                         MyPair myPair = implicant.getRecord().getAttributeEvaluation(attribute);
                         myPairs.add(myPair);
                     }
-                    listOfMyPairs.add(myPairs);
+                    if(myPairs.size() > 0)
+                        listOfMyPairs.add(myPairs);
                 }
+                if(listOfMyPairs.size() > 0)
                 sublist.add(listOfMyPairs);
             }
-            what = new Pair<>(object, sublist);
-            elements.add(what);
+            if(sublist.size() > 0) {
+                what = new Pair<>(object, sublist);
+                elements.add(what);
+            }
         }
     }
 
@@ -82,12 +87,14 @@ public class Rule {
                         String level = fuzzyRuleValue.toString();
                         switch (level) {
                             case "HIGH":
-                                sublistCvalue = Math.max(value, ((FuzzyValue) attributeEval.value).getHigh());
+                                sublistCvalue = Math.max(value, ((FuzzyValue) currentEval.value).getHigh());
                                 break;
                             case "MEDIUM":
-                                sublistCvalue = Math.max(value, ((FuzzyValue) attributeEval.value).getMedium());
+                                sublistCvalue = Math.max(value, ((FuzzyValue) currentEval.value).getMedium());
+                                break;
                             case "LOW":
-                                sublistCvalue = Math.max(value, ((FuzzyValue) attributeEval.value).getLow());
+                                sublistCvalue = Math.max(value, ((FuzzyValue) currentEval.value).getLow());
+                                break;
                         }
                     }
                     sublistBvalue = Math.min(sublistCvalue, sublistBvalue);

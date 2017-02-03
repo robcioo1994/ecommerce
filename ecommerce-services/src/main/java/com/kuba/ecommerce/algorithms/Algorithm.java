@@ -212,7 +212,8 @@ public class Algorithm {
             List<Implicant> implicants = ruleElementsMap.get(keyAttribute);
 
             Rule rule = new Rule(keyAttribute, implicants);
-            rules.add(rule);
+            if(implicants.size() != 0)
+                rules.add(rule);
         }
         ConsoleWriter.writeRules(rules);
         return rules;
